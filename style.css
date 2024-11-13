@@ -1,0 +1,85 @@
+body{
+    background-color: blueviolet;
+    font-family:'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem
+};
+h1{
+    font-size: 60px;
+    letter-spacing: 6px;
+    font-family: cursive;
+    text-align: center;
+}
+.todo-app{
+    width: 400px;
+    background: rgb(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 1rem;
+    box-shadow: 8px 8px 5px 3px rgba(24,23,23,0.2);
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin: 30px 0;
+    width: 50%;
+}
+input{
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14;
+    border-bottom: 1px solid rgba(58,57,57);
+    text-align: center;
+    padding-right: 1rem;
+
+}
+input ::placeholder{
+    color: rgba(3, 1, 27, 0.006);
+}
+button{
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    color: rgba(236,152,180);
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: black;
+    margin: 20px;
+}
+button:hover{
+    color: white;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+ul li{
+   
+    font-weight: 700;
+    list-style-type: none;
+    font-size: 20px;
+    border-radius: 5rem;
+    cursor: pointer;
+    position: relative;
+    /* background: rgba(255,255,255,.5); */
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
